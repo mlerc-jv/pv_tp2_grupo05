@@ -2,7 +2,7 @@
 var nombre = "Jimena";
 //trabajar con let y const
 let apellido = "Meruvia";
-//const TEXTO = "MENSAJE";
+//const TEXTO = "Hola Mundo, según ";
 
 //console.log("Hola Mundo, según " + nombre + apellido);
 
