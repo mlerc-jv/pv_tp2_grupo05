@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 17</title>
+</head>
+<body>
+
+<script>
+    const texto=prompt("Ingrese un texto:");
+    const contarLetraA = (texto) => {
+        let contador=0;
+        for (let i=0; i<texto.length; i++){
+            if (texto[i]==="a"){
+                contador++;
+            }
+        }
+        return contador;
+    };
+    const resultado = contarLetraA(texto);
+    document.write("La letra a aparece "+resultado+" veces");
+</script>
+
+</body>
+</html>
